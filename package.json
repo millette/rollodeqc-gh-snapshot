@@ -18,6 +18,8 @@
     "got": "^6.2.0",
     "nano": "^6.2.0",
     "pify": "^2.3.0",
-    "rollodeqc-gh-repos": "^0.1.1"
+    "rate-limit-promise": "^1.0.2",
+    "rollodeqc-gh-repos": "^0.1.1",
+    "rollodeqc-gh-utils": "^0.3.3"
   }
 }
