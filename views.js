@@ -10,12 +10,6 @@ const view = pify(db.view)
 
 const top = 100
 
-const sorter2 = (a, b) => {
-  if (a.key > b.key) return 1
-  if (a.key < b.key) return -1
-  return 0
-}
-
 const sorter = (a, b) => {
   if (a.value > b.value) return 1
   if (a.value < b.value) return -1
