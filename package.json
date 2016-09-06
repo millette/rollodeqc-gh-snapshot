@@ -1,11 +1,17 @@
 {
-  "name": "zal",
+  "name": "rollodeqc-gh-snapshot",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "RoLLodeQc snapshot.",
+  "repository": "millette/rollodeqc-gh-snapshot",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "rollodeqc"
+  ],
   "author": {
     "name": "Robin Millette",
     "email": "robin@millette.info",
