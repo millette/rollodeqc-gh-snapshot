@@ -1,26 +1,38 @@
 {
-  "_id": "_design/app",
-  "language": "javascript",
-  "views": {
-    "names": {
-      "map": "function(doc) {\n  emit(doc.name);\n}",
-      "reduce": "_count"
-    },
-    "languages": {
-      "map": "function(doc) {\n  if (doc.language) {\n    emit(doc.language);\n  }\n}",
-      "reduce": "_count"
-    },
-    "fields": {
-      "map": "function(doc) {\n  var r\n  var nop = ['_id', '_rev', 'id', 'name', 'full_name', 'created_at', 'updated_at', 'default_branch']\n\n  for (r in doc) {\n    if (nop.indexOf(r) === -1) {\n      emit(r)\n    }\n  }\n}",
-      "reduce": "_count"
-    },
-    "licenses": {
-      "map": "function(doc) {\n  if (doc.license && doc.license.key) {\n    emit(doc.license.key);\n  }\n}",
-      "reduce": "_count"
-    },
-    "owners": {
-      "map": "function(doc) {\n  if (doc.owner && doc.owner.login) {\n    emit(doc.owner.login);\n  }\n}",
-      "reduce": "_count"
-    }
-  }
+   "_id": "_design/app",
+   "language": "javascript",
+   "views": {
+       "names": {
+           "map": "function(doc) {\n  emit(doc.name);\n}",
+           "reduce": "_count"
+       },
+       "languages": {
+           "map": "function(doc) {\n  if (doc.language) {\n    emit(doc.language);\n  }\n}",
+           "reduce": "_count"
+       },
+       "fields": {
+           "map": "function(doc) {\n  var r\n  var nop = ['_id', '_rev', 'id', 'name', 'full_name', 'created_at', 'updated_at', 'default_branch']\n\n  for (r in doc) {\n    if (nop.indexOf(r) === -1) {\n      emit(r)\n    }\n  }\n}",
+           "reduce": "_count"
+       },
+       "licenses": {
+           "map": "function(doc) {\n  if (doc.license && doc.license.key) {\n    emit(doc.license.key);\n  }\n}",
+           "reduce": "_count"
+       },
+       "owners": {
+           "map": "function(doc) {\n  if (doc.owner && doc.owner.login) {\n    emit(doc.owner.login);\n  }\n}",
+           "reduce": "_count"
+       },
+       "byForks": {
+           "map": "function(doc) {\n  emit(doc.forks || 0, doc.full_name);\n}"
+       },
+       "byWatchers": {
+           "map": "function(doc) {\n  emit(doc.watchers || 0, doc.full_name);\n}\n"
+       },
+       "ratioForksWatchers": {
+           "map": "function(doc) {\n  if (doc.forks > 5 && doc.watchers > 5) {\n    emit([doc.forks / doc.watchers, doc.watchers], doc.full_name)\n  }\n}"
+       },
+       "ratioForksWatchers2": {
+           "map": "function(doc) {\n  if (doc.forks > 5 && doc.watchers > 5) {\n    emit([doc.forks / doc.watchers, doc.forks], doc.full_name)\n  }\n}\t\t"
+       }
+   }
 }
