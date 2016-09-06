@@ -3,7 +3,7 @@
 // npm
 const pify = require('pify')
 const db = require('nano')('http://localhost:5984/repos')
-const view = pify(db.view)
+const dbView = pify(db.view)
 
 const top = 100
 
@@ -17,13 +17,13 @@ const map1 = (repo) => `${repo.key} (${repo.value})`
 const map2 = (repo) => `${repo.value} (${repo.key})`
 const map3 = (repo) => `${repo.value} (${repo.key[0]}, ${repo.key[1]})`
 
-const viewBy = (field) => view('app', field, { group: true })
+const viewBy = (view) => dbView('app', view, { group: true })
   .then((x) => x.rows.sort(sorter).reverse().map(map1))
 
-const viewBy2 = (field) => view('app', field, { descending: true, limit: top })
+const viewBy2 = (view) => dbView('app', view, { descending: true, limit: top })
   .then((x) => x.rows.map(map2))
 
-const viewBy3 = (field, desc) => view('app', field, { descending: desc, limit: top })
+const viewBy3 = (view, desc) => dbView('app', view, { descending: desc, limit: top })
   .then((x) => x.rows.map(map3))
 
 viewBy3('ratioForksWatchers')
