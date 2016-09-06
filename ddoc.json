@@ -21,10 +21,6 @@
     "owners": {
       "map": "function(doc) {\n  if (doc.owner && doc.owner.login) {\n    emit(doc.owner.login);\n  }\n}",
       "reduce": "_count"
-    },
-    "isOwner": {
-      "map": "function(doc) {\n  if (doc.owner && doc.owner.login) {\n    emit(doc.full_name.split('/')[0] === doc.owner.login);\n  }\n}",
-      "reduce": "_count"
     }
   }
 }
