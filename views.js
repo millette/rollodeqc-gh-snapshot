@@ -8,16 +8,39 @@ const pify = require('pify')
 const db = require('nano')('http://localhost:5984/repos')
 const view = pify(db.view)
 
+const top = 100
+
+const sorter2 = (a, b) => {
+  if (a.key > b.key) return 1
+  if (a.key < b.key) return -1
+  return 0
+}
+
 const sorter = (a, b) => {
   if (a.value > b.value) return 1
   if (a.value < b.value) return -1
   return 0
 }
 
-const viewBy = (field) => view('app', field, {group: true})
+const viewBy = (field) => view('app', field, { group: true })
   .then((x) => x.rows.sort(sorter).reverse().map((repo) => `${repo.key} (${repo.value})`))
 
-const top = 100
+const viewBy2 = (field) => view('app', field, { descending: true, limit: top })
+  .then((x) => x.rows.map((repo) => `${repo.value} (${repo.key})`))
+
+viewBy2('byWatchers')
+  .then((rows) => {
+    console.log('\nBY-WATCHERS:')
+    console.log(rows.slice(0, top).join('\n'))
+  })
+  .catch(console.error)
+
+viewBy2('byForks')
+  .then((rows) => {
+    console.log('\nBY-FORKS:')
+    console.log(rows.slice(0, top).join('\n'))
+  })
+  .catch(console.error)
 
 viewBy('names')
   .then((rows) => {
