@@ -13,14 +13,18 @@ const sorter = (a, b) => {
   return 0
 }
 
+const map1 = (repo) => `${repo.key} (${repo.value})`
+const map2 = (repo) => `${repo.value} (${repo.key})`
+const map3 = (repo) => `${repo.value} (${repo.key[0]}, ${repo.key[1]})`
+
 const viewBy = (field) => view('app', field, { group: true })
-  .then((x) => x.rows.sort(sorter).reverse().map((repo) => `${repo.key} (${repo.value})`))
+  .then((x) => x.rows.sort(sorter).reverse().map(map1))
 
 const viewBy2 = (field) => view('app', field, { descending: true, limit: top })
-  .then((x) => x.rows.map((repo) => `${repo.value} (${repo.key})`))
+  .then((x) => x.rows.map(map2))
 
 const viewBy3 = (field, desc) => view('app', field, { descending: desc, limit: top })
-  .then((x) => x.rows.map((repo) => `${repo.value} (${repo.key[0]}, ${repo.key[1]})`))
+  .then((x) => x.rows.map(map3))
 
 viewBy3('ratioForksWatchers')
   .then((rows) => {
