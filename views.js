@@ -29,42 +29,42 @@ const viewBy3 = (view, desc) => dbView('app', view, { descending: desc, limit: t
 viewBy3('ratioForksWatchers')
   .then((rows) => {
     console.log('\nBY-ratioForksWatchers+watchers (more watchers):')
-    console.log(rows.slice(0, top).join('\n'))
+    console.log(rows.join('\n'))
   })
   .catch(console.error)
 
 viewBy3('ratioForksWatchers', true)
   .then((rows) => {
     console.log('\nBY-ratioForksWatchers+watchers (more forks):')
-    console.log(rows.slice(0, top).join('\n'))
+    console.log(rows.join('\n'))
   })
   .catch(console.error)
 
 viewBy3('ratioForksWatchers2')
   .then((rows) => {
     console.log('\nBY-ratioForksWatchers2+forks (more watchers):')
-    console.log(rows.slice(0, top).join('\n'))
+    console.log(rows.join('\n'))
   })
   .catch(console.error)
 
 viewBy3('ratioForksWatchers2', true)
   .then((rows) => {
     console.log('\nBY-ratioForksWatchers2+forks (more forks):')
-    console.log(rows.slice(0, top).join('\n'))
+    console.log(rows.join('\n'))
   })
   .catch(console.error)
 
 viewBy2('byWatchers')
   .then((rows) => {
     console.log('\nBY-WATCHERS:')
-    console.log(rows.slice(0, top).join('\n'))
+    console.log(rows.join('\n'))
   })
   .catch(console.error)
 
 viewBy2('byForks')
   .then((rows) => {
     console.log('\nBY-FORKS:')
-    console.log(rows.slice(0, top).join('\n'))
+    console.log(rows.join('\n'))
   })
   .catch(console.error)
 
