@@ -5,7 +5,6 @@ const fs = require('fs')
 
 // npm
 require('dotenv-safe').load()
-const got = require('got')
 const fetchRepos = require('rollodeqc-gh-repos')
 const utils = require('rollodeqc-gh-utils')
 const pify = require('pify')
@@ -13,9 +12,7 @@ const db = require('nano')('http://localhost:5984/repos')
 const throttler = require('rate-limit-promise')(8, 10000)
 const getFile = pify(fs.readFile)
 
-let looper
-
-const putDataRepos = () => {
+const putDataRepos = (() => {
   const bulk = pify(db.bulk)
   const withID = (doc) => {
     doc._id = 'repo:' + doc.id
@@ -30,7 +27,7 @@ const putDataRepos = () => {
         total: x.length
       }
     })
-}()
+})()
 
 const putRepos = (username) => {
   return throttler()
@@ -42,19 +39,18 @@ const putRepos = (username) => {
 }
 
 getFile('./usernames.txt', 'utf-8')
-  .then((users) => users.split('\n'))
   .then((users) => {
-    users.forEach((u) => {
+    users.split('\n').forEach((u) => {
       putRepos(u)
         .then(console.log)
         .catch((e) => {
           console.error(new Date().toISOString(), e)
         })
     })
-})
+  })
 
 console.log('CTRL-C to end')
 
-looper = setInterval(() => {
+setInterval(() => {
   utils.rateLimit().then((rl) => console.log(new Date().toISOString(), rl.rate.remaining, new Date(rl.rate.reset * 1000).toISOString()))
 }, 15000)
