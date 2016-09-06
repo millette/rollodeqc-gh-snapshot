@@ -10,17 +10,18 @@ const fetchRepos = require('rollodeqc-gh-repos')
 const pify = require('pify')
 const db = require('nano')('http://localhost:5984/repos')
 
-const bulk = pify(db.bulk)
+const putRepos = () => {
+  const bulk = pify(db.bulk)
+  const withID = (doc) => {
+    doc._id = 'repo:' + doc.id
+    return doc
+  }
 
-const withID = (doc) => {
-  doc._id = 'repo:' + doc.id
-  return doc
-}
-
-const putRepos = (data) => {
-  const docs = { docs: data.map(withID) }
-  return bulk(docs)
-}
+  return (data) => {
+    const docs = { docs: data.map(withID) }
+    return bulk(docs)
+  }
+}()
 
 putRepos(require('./repos/dfcreative-repos.json'))
   .then(console.log)
