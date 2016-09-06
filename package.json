@@ -4,7 +4,9 @@
   "description": "RoLLodeQc snapshot.",
   "repository": "millette/rollodeqc-gh-snapshot",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "test": "standard && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "engines": {
     "node": ">=4"
@@ -27,5 +29,15 @@
     "rate-limit-promise": "^1.0.2",
     "rollodeqc-gh-repos": "^0.1.1",
     "rollodeqc-gh-utils": "^0.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-eslint": "^6.1.2",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0",
+    "standard": "^8.0.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
