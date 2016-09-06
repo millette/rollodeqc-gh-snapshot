@@ -7,22 +7,54 @@ const fs = require('fs')
 require('dotenv-safe').load()
 const got = require('got')
 const fetchRepos = require('rollodeqc-gh-repos')
+const utils = require('rollodeqc-gh-utils')
 const pify = require('pify')
 const db = require('nano')('http://localhost:5984/repos')
+const throttler = require('rate-limit-promise')(8, 10000)
+const getFile = pify(fs.readFile)
 
-const putRepos = () => {
+let looper
+
+const putDataRepos = () => {
   const bulk = pify(db.bulk)
   const withID = (doc) => {
     doc._id = 'repo:' + doc.id
     return doc
   }
 
-  return (data) => {
-    const docs = { docs: data.map(withID) }
-    return bulk(docs)
-  }
+  return (data) => bulk({ docs: data.map(withID) })
+    .then((x) => {
+      return {
+        oks: x.filter((a) => a.ok).length,
+        errors: x.filter((a) => a.error).length,
+        total: x.length
+      }
+    })
 }()
 
-putRepos(require('./repos/dfcreative-repos.json'))
-  .then(console.log)
-  .catch(console.error)
+const putRepos = (username) => {
+  return throttler()
+    .then(() => {
+      console.log('Processing', username)
+      return fetchRepos(username, true)
+    })
+    .then(putDataRepos)
+}
+
+getFile('./usernames.txt', 'utf-8')
+  .then((users) => users.split('\n'))
+  .then((users) => {
+    users.forEach((u) => {
+      putRepos(u)
+        .then(console.log)
+        .catch((e) => {
+          console.error(new Date().toISOString(), e)
+        })
+    })
+})
+
+console.log('CTRL-C to end')
+
+looper = setInterval(() => {
+  utils.rateLimit().then((rl) => console.log(new Date().toISOString(), rl.rate.remaining, new Date(rl.rate.reset * 1000).toISOString()))
+}, 15000)

@@ -2,7 +2,4 @@ node_modules
 .env
 repos
 streakers
-usernames.txt
-contributors-all.txt
-usernames-10.txt
 usernames-complete.txt
