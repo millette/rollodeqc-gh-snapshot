@@ -13,13 +13,6 @@ const sorter = (a, b) => {
   return 0
 }
 
-
-const sorter3 = (a, b) => {
-  if (a.key[0] > b.key[0]) return 1
-  if (a.key[0] < b.key[0]) return -1
-  return 0
-}
-
 const viewBy = (field) => view('app', field, { group: true })
   .then((x) => x.rows.sort(sorter).reverse().map((repo) => `${repo.key} (${repo.value})`))
 
@@ -27,7 +20,7 @@ const viewBy2 = (field) => view('app', field, { descending: true, limit: top })
   .then((x) => x.rows.map((repo) => `${repo.value} (${repo.key})`))
 
 const viewBy3 = (field, desc) => view('app', field, { descending: desc, limit: top })
-  .then((x) => x.rows.sort(sorter).map((repo) => `${repo.value} (${repo.key[0]}, ${repo.key[1]})`))
+  .then((x) => x.rows.map((repo) => `${repo.value} (${repo.key[0]}, ${repo.key[1]})`))
 
 viewBy3('ratioForksWatchers')
   .then((rows) => {
