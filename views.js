@@ -17,28 +17,32 @@ const sorter = (a, b) => {
 const viewBy = (field) => view('app', field, {group: true})
   .then((x) => x.rows.sort(sorter).reverse().map((repo) => `${repo.key} (${repo.value})`))
 
-const top = 15
+const top = 100
 
 viewBy('names')
   .then((rows) => {
-    console.log('BY-NAME:', rows.slice(0, top).join('\n'))
+    console.log('\nBY-NAME:')
+    console.log(rows.slice(0, top).join('\n'))
   })
   .catch(console.error)
 
 viewBy('languages')
   .then((rows) => {
-    console.log('BY-LANGUAGE:', rows.slice(0, top).join('\n'))
+    console.log('\nBY-LANGUAGE:')
+    console.log(rows.slice(0, top).join('\n'))
   })
   .catch(console.error)
 
 viewBy('licenses')
   .then((rows) => {
-    console.log('BY-LICENSE:', rows.slice(0, top).join('\n'))
+    console.log('\nBY-LICENSE:')
+    console.log(rows.slice(0, top).join('\n'))
   })
   .catch(console.error)
 
 viewBy('owners')
   .then((rows) => {
-    console.log('BY-OWNER:', rows.slice(0, top).join('\n'))
+    console.log('\nBY-OWNER:')
+    console.log(rows.slice(0, top).join('\n'))
   })
   .catch(console.error)
