@@ -46,7 +46,6 @@ const getFeb = (year) => {
 }
 
 const get31st = (year, part) => {
-  let r
   getDay(`${year}/07/31`)
   getDay(`${year}/08/31`)
   if (part) {

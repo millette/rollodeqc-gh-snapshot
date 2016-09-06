@@ -1,8 +1,5 @@
 'use strict'
 
-// core
-const fs = require('fs')
-
 // npm
 const pify = require('pify')
 const db = require('nano')('http://localhost:5984/repos')
