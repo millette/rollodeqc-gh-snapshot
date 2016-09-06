@@ -6,6 +6,9 @@ const db = require('nano')('http://localhost:5984/repos')
 const dbView = pify(db.view)
 
 const top = 100
+const views1 = ['names', 'languages', 'licenses', 'owners']
+const views2 = ['byWatchers', 'byForks']
+const views3 = [['ratioForksWatchers', false], ['ratioForksWatchers2', false], ['ratioForksWatchers', true], ['ratioForksWatchers2', true]]
 
 const sorter = (a, b) => {
   if (a.value > b.value) return 1
@@ -23,75 +26,17 @@ const viewBy = (view) => dbView('app', view, { group: true })
 const viewBy2 = (view) => dbView('app', view, { descending: true, limit: top })
   .then((x) => x.rows.map(map2))
 
-const viewBy3 = (view, desc) => dbView('app', view, { descending: desc, limit: top })
+const viewBy3 = (args) => dbView('app', args[0], { descending: args[1], limit: top })
   .then((x) => x.rows.map(map3))
 
-viewBy3('ratioForksWatchers')
-  .then((rows) => {
-    console.log('\nBY-ratioForksWatchers+watchers (more watchers):')
-    console.log(rows.join('\n'))
-  })
-  .catch(console.error)
-
-viewBy3('ratioForksWatchers', true)
-  .then((rows) => {
-    console.log('\nBY-ratioForksWatchers+watchers (more forks):')
-    console.log(rows.join('\n'))
-  })
-  .catch(console.error)
-
-viewBy3('ratioForksWatchers2')
-  .then((rows) => {
-    console.log('\nBY-ratioForksWatchers2+forks (more watchers):')
-    console.log(rows.join('\n'))
-  })
-  .catch(console.error)
-
-viewBy3('ratioForksWatchers2', true)
-  .then((rows) => {
-    console.log('\nBY-ratioForksWatchers2+forks (more forks):')
-    console.log(rows.join('\n'))
-  })
-  .catch(console.error)
-
-viewBy2('byWatchers')
-  .then((rows) => {
-    console.log('\nBY-WATCHERS:')
-    console.log(rows.join('\n'))
-  })
-  .catch(console.error)
-
-viewBy2('byForks')
-  .then((rows) => {
-    console.log('\nBY-FORKS:')
-    console.log(rows.join('\n'))
-  })
-  .catch(console.error)
-
-viewBy('names')
-  .then((rows) => {
-    console.log('\nBY-NAME:')
-    console.log(rows.slice(0, top).join('\n'))
-  })
-  .catch(console.error)
-
-viewBy('languages')
-  .then((rows) => {
-    console.log('\nBY-LANGUAGE:')
-    console.log(rows.slice(0, top).join('\n'))
-  })
-  .catch(console.error)
-
-viewBy('licenses')
-  .then((rows) => {
-    console.log('\nBY-LICENSE:')
-    console.log(rows.slice(0, top).join('\n'))
-  })
-  .catch(console.error)
-
-viewBy('owners')
-  .then((rows) => {
-    console.log('\nBY-OWNER:')
-    console.log(rows.slice(0, top).join('\n'))
+Promise.all(views1.map(viewBy))
+  .then((data) => { data.forEach((rows, i) => { console.log(`\n${views1[i]}\n${rows.slice(0, top).join('\n')}`) }) })
+  .then((() => Promise.all(views2.map(viewBy2))))
+  .then((data) => { data.forEach((rows, i) => { console.log(`\n${views2[i]}\n${rows.join('\n')}`) }) })
+  .then(() => Promise.all(views3.map(viewBy3)))
+  .then((data) => {
+    const strs2 = ['more watchers', 'more watchers', 'more forks', 'more forks']
+    const strs1 = ['watchers', 'forks', 'watchers', 'forks']
+    data.forEach((rows, i) => { console.log(`\n${strs1[i]} (${strs2[i]})\n${rows.join('\n')}`) })
   })
   .catch(console.error)
