@@ -13,13 +13,13 @@ pour rédiger une série d'articles à propos de ces découvertes. Je compte uti
 * Aborder des aspects transversaux:
   * financement
   * développement
-  * commuanuté
+  * communauté
   * etc.
 
 ## Quelques statistiques
 Depuis un an, le [RoLLodeQc][] récolte et accumule des données publiques
 sur <span class="vcard-stat-count">9000</span> développeurs dont
-<span class="vcard-stat-count">5000</span> ont été actifs au cours des 365 derniers jours.
+<big>5000</big> ont été actifs au cours des 365 derniers jours.
 
 ### Statistiques quotidiennes
 Ça fait quelques mois maintenant que le projet [Committed Streaker][]
@@ -32,8 +32,6 @@ et <span class="vcard-stat-count">500</span> contributrices:
 * lundi à jeudi: <span class="vcard-stat-count">450</span> contributrices
 * vendredi: <span class="vcard-stat-count">400</span> contributrices
 * samedi et dimanche: <span class="vcard-stat-count">200</span> contributrices
-
-
 
 ## Notes
 ### Note 1
