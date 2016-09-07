@@ -18,20 +18,26 @@ pour rédiger une série d'articles à propos de ces découvertes. Je compte uti
 
 ## Quelques statistiques
 Depuis un an, le [RoLLodeQc][] récolte et accumule des données publiques
-sur <span class="vcard-stat-count">9000</span> développeurs dont
-<big>5000</big> ont été actifs au cours des 365 derniers jours.
+sur **9000** développeurs dont
+**5000** ont été actifs au cours des **365** derniers jours.
 
 ### Statistiques quotidiennes
 Ça fait quelques mois maintenant que le projet [Committed Streaker][]
 du RoLLodeQc tourne. On peut le consulter chaque jour pour voir qui sont
 les contributeurs les plus actifs de la journée.
 
-Chaque jour, on compte entre <span class="vcard-stat-count">200</span>
-et <span class="vcard-stat-count">500</span> contributrices:
+Chaque jour, on compte entre **200** et **500** contributrices en moyenne:
 
-* lundi à jeudi: <span class="vcard-stat-count">450</span> contributrices
-* vendredi: <span class="vcard-stat-count">400</span> contributrices
-* samedi et dimanche: <span class="vcard-stat-count">200</span> contributrices
+* lundi à jeudi: **450** contributrices
+* vendredi: **400** contributrices
+* samedi et dimanche: **200** contributrices
+
+### Les projets
+Dans ce projet-ci, j'ai récolté l'information de base
+sur les **60k** projets des **5000** développeurs actifs dans la dernière année.
+Vous trouverez quelques statistiques dans le [Top 100 instantané][]
+et le code source utilisé dans le reste de ce dépot. Je vais piger
+dans ce Top 100 pour trouver les sujets de mes articles.
 
 ## Notes
 ### Note 1
@@ -44,9 +50,5 @@ AGPL-v3 © 2016 [Robin Millette](http://robin.millette.info)
 [*1]: #note-1
 [SQIL]: <http://2016.sqil.info/>
 [RoLLodeQc]: <http://www.rollodeqc.com/>
-
-
-
-
-
 [Committed Streaker]: <https://streaker.rollodeqc.com/>
+[Top 100 instantané]: <https://github.com/millette/rollodeqc-gh-snapshot/blob/master/tops.txt>
