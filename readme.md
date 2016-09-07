@@ -19,12 +19,12 @@ Je compte utiliser quelques formats:
   * etc.
 
 ## Notes
-### Note 1 <a name="#note1"></a>
+### Note 1
 À moins de spécifier autrement, j'utiliserai les genres (Québécois/Québécoises)
 de façon interchangeable au cours du texte.
 
 ## License
 AGPL-v3 © 2016 [Robin Millette](http://robin.millette.info)
 
-[*1]: #note1
+[*1]: #note-1
 [SQIL]: <http://2016.sqil.info/>
