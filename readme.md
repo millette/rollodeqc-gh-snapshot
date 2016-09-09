@@ -72,8 +72,6 @@ Je vais noter ici les sujets que j'approfondirai.
 * fyhertz/libstreaming (601)
 
 #### watchers (more watchers)
-Attention [*3][]
-
 * breuleux/earl-grey (418)
 * dotboris/eldritch (291)
 * EtienneLem/architect (349)
@@ -87,7 +85,20 @@ Attention [*3][]
 * gabrielbull/react-desktop (5022)
 
 #### watchers (more forks)
-Attention [*3][]
+* esthercrawford/EstherBot (3.854901960784314, 255)
+* alavers/smooch-bot-example (1.7348484848484849, 132)
+* sayar/NodeMVA (1.5145985401459854, 274)
+* drf/amsn2 (1.3697478991596639, 119)
+* fyhertz/libstreaming-examples (1.2, 140)
+* shopizer-ecommerce/shopizer (1.1881720430107527, 372)
+* sedouard/mongodb-mva (1.0260869565217392, 115)
+* nebez/floppybird (0.8669064748201439, 278)
+* ranacseruet/codeigniterplus (0.8558558558558559, 111)
+* econchick/new-coder (0.7362869198312236, 474)
+* christocracy/cordova-plugin-background-geolocation (0.6952965235173824, 489)
+* fyhertz/spydroid-ipcamera (0.66, 750)
+
+From version 1:
 
 * mathibodeau/petstore (8)
 * xEnt22/RustPP (9)
@@ -97,6 +108,36 @@ Attention [*3][]
 * sordonia/hed-dlg (7)
 * nzin/puppet-ossec (13)
 * spiette/puppet-selinux (14)
+
+#### forks (more watchers)
+* fed135/Kalm (11)
+* alekseykulikov/storage (16)
+* tomzx/php-semver-checker (12)
+* gabrielbull/react-desktop (190)
+* dergachev/screengif (30)
+* gelisam/frp-zoo (11)
+* clauderic/react-infinite-calendar (58)
+* Palleas/NaughtyKeyboard (26)
+* madbence/node-drawille-canvas (16)
+* remiprev/teamocil (73)
+* breuleux/terminus (11)
+* jcampbell05/xcake (16)
+* gelisam/hawk (11)
+
+#### forks (more forks)
+* esthercrawford/EstherBot (983)
+* alavers/smooch-bot-example (229)
+* sayar/NodeMVA (415)
+* drf/amsn2 (163)
+* yracine/device-type.myecobee (104)
+* fyhertz/libstreaming-examples (168)
+* jipiboily/spree_multi_lingual (63)
+* shopizer-ecommerce/shopizer (442)
+* sedouard/mongodb-mva (118)
+* mouneyrac/moodle-auth_googleoauth2 (73)
+* friendica/friendica-addons (61)
+* eslachance/php-transparent-proxy (51)
+* nebez/floppybird (241)
 
 #### Theano
 <https://github.com/Theano/Theano><br>
@@ -171,16 +212,11 @@ Un projet est «québécois» quand plusieurs québécois y contribuent
 de façon significative. Je n'utilise pas de métrique particulière pour
 en faire la détermination.
 
-### Note 3
-Vérifier que les projets sont biens triés dans tous les cas
-(on dirait que **more watchers** et **more forks** sont en double).
-
 ## License
 AGPL-v3 © 2016 [Robin Millette](http://robin.millette.info)
 
 [*1]: #note-1
 [*2]: #note-2
-[*3]: #note-3
 [SQIL]: <http://2016.sqil.info/>
 [RoLLodeQc]: <http://www.rollodeqc.com/>
 [Committed Streaker]: <https://streaker.rollodeqc.com/>
