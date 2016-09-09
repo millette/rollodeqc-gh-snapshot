@@ -16,6 +16,9 @@ pour rédiger une série d'articles à propos de ces découvertes. Je compte uti
   * communauté
   * etc.
 
+Notez qu'il ne s'agit pas de dresser un palmarès des logiciels
+ni des codeurs, mais d'offir un échantillon légèrement arbitraire.
+
 ## Quelques statistiques
 Depuis un an, le [RoLLodeQc][] récolte et accumule des données publiques
 sur **9000** développeurs dont

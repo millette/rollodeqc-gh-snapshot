@@ -29,10 +29,10 @@
            "map": "function(doc) {\n  emit(doc.watchers || 0, doc.full_name);\n}\n"
        },
        "ratioForksWatchers": {
-           "map": "function(doc) {\n  if (doc.forks > 5 && doc.watchers > 5) {\n    emit([doc.forks / doc.watchers, doc.watchers], doc.full_name)\n  }\n}"
+           "map": "function(doc) {\n  if (doc.forks > 5 && doc.watchers > 100) {\n    emit([doc.forks / doc.watchers, doc.watchers], doc.full_name)\n  }\n}"
        },
        "ratioForksWatchers2": {
-           "map": "function(doc) {\n  if (doc.forks > 5 && doc.watchers > 5) {\n    emit([doc.forks / doc.watchers, doc.forks], doc.full_name)\n  }\n}\t\t"
+           "map": "function(doc) {\n  if (doc.forks > 10 && doc.watchers > 50) {\n    emit([doc.forks / doc.watchers, doc.forks], doc.full_name)\n  }\n}\t\t"
        }
    }
 }
