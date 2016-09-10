@@ -18,6 +18,15 @@ une série d'articles à propos de ces découvertes.
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
 
+------
+
+## Notes
+### Note 1
+À moins de spécifier autrement, j'utiliserai les genres (Québécois/Québécoises)
+de façon interchangeable au cours du texte.
+
+[*1]: #note-1
+[SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
 [libstreaming]: <https://github.com/fyhertz/libstreaming>

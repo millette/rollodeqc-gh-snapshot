@@ -24,6 +24,9 @@ quelques formats:
 Notez qu'il ne s'agit pas de dresser un palmarès des logiciels
 ni des codeurs, mais d'offir un échantillon légèrement arbitraire.
 
+## License
+[CC-BY-SA-4.0][] © 2016 [Robin Millette][]
+
 ------
 
 ## Notes
@@ -31,10 +34,8 @@ ni des codeurs, mais d'offir un échantillon légèrement arbitraire.
 À moins de spécifier autrement, j'utiliserai les genres (Québécois/Québécoises)
 de façon interchangeable au cours du texte.
 
-## License
-[CC-BY-SA-4.0][] © 2016 [Robin Millette][]
-
+[*1]: #note-1
+[SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
-[*1]: #note-1
 [RoLLodeQc]: <http://www.rollodeqc.com/>
