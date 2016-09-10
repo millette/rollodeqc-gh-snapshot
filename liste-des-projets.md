@@ -1,0 +1,43 @@
+## Doubles
+* alekseykulikov/storage
+* danielgindi/Charts (left montreal?)
+* drf/amsn2 (very old, 7 years)
+* ruyadorno/ntl
+* sayar/NodeMVA
+* sedouard/mongodb-mva
+* shopizer-ecommerce/shopizer
+* sorich87/bootstrap-tour
+* syl20bnr/spacemacs
+* tomzx/php-semver-checker
+* xetorthio/jedis
+* ziadoz/awesome-php
+
+## Singles
+* anqixu/ueye_cam
+* christocracy/cordova-plugin-background-geolocation
+* clauderic/react-infinite-calendar
+* dergachev/screengif
+* dotboris/eldritch
+* econchick/new-coder
+* eslachance/php-transparent-proxy
+* EtienneLem/architect
+* friendica/friendica-addons
+* fuhrmanator/course-activity-planner
+* jcampbell05/xcake
+* jeromegn/Backbone.localStorage
+* jipiboily/spree_multi_lingual
+* jonas/tig
+* madbence/node-drawille-canvas
+* mathibodeau/petstore
+* mouneyrac/moodle-auth_googleoauth2
+* nbrochu/requests-respectful
+* nzin/puppet-ossec
+* Palleas/NaughtyKeyboard
+* posabsolute/jQuery-Validation-Engine
+* PuerkitoBio/goquery
+* ranacseruet/codeigniterplus
+* remiprev/teamocil
+* yracine/device-type.myecobee
+* sordonia/hed-dlg
+* spiette/puppet-selinux
+* xEnt22/RustPP
