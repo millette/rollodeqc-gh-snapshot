@@ -35,7 +35,7 @@ sur les marchés québécois, canadien et internationaux.
 L'APELL organise le
 [Salon du Logiciel Libre et des technologies ouvertes du Québec][S2LQ]
 qui promeut l'utilisation des logiciels libres dans toutes les sphères
-de notre société en donnant la parole tant à ceux qui « code » qu'à ces
+de notre société en donnant la parole tant à ceux qui « codent » qu'à ses
 utilisateurs. L'usage de logiciel libre ajoute un actif aux avoirs de
 tous car ce logiciel peut être ajusté selon les besoins qui ne manquent
 pas d'évoluer.
@@ -43,6 +43,12 @@ pas d'évoluer.
 Cette année le [S2LQ][] se déroule mardi le 20 septembre 2016 au
 Plaza Montréal, 420 Sherbrooke ouest, Montréal,
 sous le thème « Le Libre au quotidien ».
+
+### Questions
+* CA Actuel
+* Nombre de membres
+* Activités autres que le S2LQ
+* Appel aux lecteurs
 
 ### Sources
 * [APELL][]
