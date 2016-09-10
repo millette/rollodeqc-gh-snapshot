@@ -19,6 +19,10 @@ pour rédiger une série d'articles à propos de ces découvertes. Je compte uti
 Notez qu'il ne s'agit pas de dresser un palmarès des logiciels
 ni des codeurs, mais d'offir un échantillon légèrement arbitraire.
 
+*Spoiler Alert*: Les brouillons des articles vont apparaitre graduellement
+dans ce dépot. N'allez pas les lire si vous voulez garder la surprise
+pour la durée de la SQIL :-)
+
 ## Quelques statistiques
 Depuis un an, le [RoLLodeQc][] récolte et accumule des données publiques
 sur **9000** développeurs dont
@@ -47,7 +51,7 @@ dans ce Top 100 pour trouver les sujets de mes articles.
 ## Sujets retenus
 Je vais noter ici les sujets que j'approfondirai.
 
-### Les projets
+### Les listes de projets
 #### byWatchers
 * ziadoz/awesome-php (12870)
 * danielgindi/Charts (10784)
@@ -139,6 +143,7 @@ From version 1:
 * eslachance/php-transparent-proxy (51)
 * nebez/floppybird (241)
 
+### Les projets
 #### Theano
 <https://github.com/Theano/Theano><br>
 *Semble québécois* [*2][]<br>
