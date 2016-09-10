@@ -1,14 +1,18 @@
 # Instantané des projets libres du Québec
-> Un service du RoLLodeQc
+> Un service [RoLLodeQc][]
 
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
-Déjà 15 ans à patauger dans les communautés du libre du Québec et
-je découvre encore chaque jour une nouvelle codeuse [*1][] ou un nouveau logiciel.
+Déjà 15 ans à patauger dans les communautés du libre du Québec et je
+découvre encore chaque jour une nouvelle codeuse [*1][] ou un nouveau logiciel.
 
-Je profite donc de l'approche de la [Semaine québécoise de l'informatique libre 2016][SQIL]
-pour rédiger une série d'articles à propos de ces découvertes. Je compte utiliser quelques formats:
+Je profite donc de l'approche de la
+[Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
+une série d'articles à propos de ces découvertes. Je compte utiliser
+quelques formats:
 
 * Portrait de développeur
+* Portrait de groupes, associations
+* Portrait d'entreprises
 * Portrait d'un logiciel libre
 * Aborder des aspects transversaux:
   * financement
@@ -21,7 +25,7 @@ ni des codeurs, mais d'offir un échantillon légèrement arbitraire.
 
 *Spoiler Alert*: Les brouillons des articles vont apparaitre graduellement
 dans ce dépot. N'allez pas les lire si vous voulez garder la surprise
-pour la durée de la SQIL :-)
+pour la durée de la [SQIL][] :-)
 
 ## Quelques statistiques
 Depuis un an, le [RoLLodeQc][] récolte et accumule des données publiques
@@ -89,18 +93,18 @@ Je vais noter ici les sujets que j'approfondirai.
 * gabrielbull/react-desktop (5022)
 
 #### watchers (more forks)
-* esthercrawford/EstherBot (3.854901960784314, 255)
-* alavers/smooch-bot-example (1.7348484848484849, 132)
-* sayar/NodeMVA (1.5145985401459854, 274)
-* drf/amsn2 (1.3697478991596639, 119)
-* fyhertz/libstreaming-examples (1.2, 140)
-* shopizer-ecommerce/shopizer (1.1881720430107527, 372)
-* sedouard/mongodb-mva (1.0260869565217392, 115)
-* nebez/floppybird (0.8669064748201439, 278)
-* ranacseruet/codeigniterplus (0.8558558558558559, 111)
-* econchick/new-coder (0.7362869198312236, 474)
-* christocracy/cordova-plugin-background-geolocation (0.6952965235173824, 489)
-* fyhertz/spydroid-ipcamera (0.66, 750)
+* esthercrawford/EstherBot (255)
+* alavers/smooch-bot-example (132)
+* sayar/NodeMVA (274)
+* drf/amsn2 (119)
+* fyhertz/libstreaming-examples (140)
+* shopizer-ecommerce/shopizer (372)
+* sedouard/mongodb-mva (115)
+* nebez/floppybird (278)
+* ranacseruet/codeigniterplus (111)
+* econchick/new-coder (474)
+* christocracy/cordova-plugin-background-geolocation (489)
+* fyhertz/spydroid-ipcamera (750)
 
 From version 1:
 
@@ -150,7 +154,7 @@ From version 1:
 
 #### tensorflow
 <https://github.com/tensorflow/tensorflow><br>
-*Vérifier la participation québécoise*<br>
+Vérifier la participation québécoise: **non**
 
 #### opencode.ca
 <https://github.com/opencodeqc/opencode.ca><br>
