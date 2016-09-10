@@ -10,13 +10,13 @@ Je profite donc de l'approche de la
 une série d'articles à propos de ces découvertes.
 
 ## Association professionnelle des entreprises en logiciels libres
-* *Organisation*: OSBL
-* *Fondation*: décembre 2008
-* *Siège social*: Montréal
+* **Organisation**: OSBL
+* **Fondation**: décembre 2008
+* **Siège social**: Montréal
 
-L'Association professionnelle des entreprises en logiciels libres (APELL)
-est une association sans but lucratif qui œuvre au développement des
-entreprises spécialisées dans les logiciels libres au Québec.
+L'Association professionnelle des entreprises en logiciels libres
+([S2LQ][]) est une association sans but lucratif qui œuvre au
+développement des entreprises spécialisées dans les logiciels libres au Québec.
 
 ### Historique
 L'APELL est fondée en décembre 2008 à l'initiative de Cyrille Béraud,
@@ -40,7 +40,7 @@ utilisateurs. L'usage de logiciel libre ajoute un actif aux avoirs de
 tous car ce logiciel peut être ajusté selon les besoins qui ne manquent
 pas d'évoluer.
 
-Cette année le [S2LQ] se déroule mardi le 20 septembre 2016 au
+Cette année le [S2LQ][] se déroule mardi le 20 septembre 2016 au
 Plaza Montréal, 420 Sherbrooke ouest, Montréal,
 sous le thème « Le Libre au quotidien ».
 
