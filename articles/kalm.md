@@ -14,6 +14,11 @@ Je profite donc de l'approche de la
 [Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
 une série d'articles à propos de ces découvertes.
 
+## License
+[CC-BY-SA-4.0][] © 2016 [Robin Millette][]
+
+[CC-BY-SA-4.0]: cc-by-sa.md
+[Robin Millette]: <http://robin.millette.info/>
 [fed135]: <https://github.com/fed135>
 [Kalm]: <https://github.com/fed135/Kalm>
 [kalm.js.org]: <http://kalm.js.org/>

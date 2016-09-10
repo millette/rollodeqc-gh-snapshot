@@ -31,5 +31,10 @@ ni des codeurs, mais d'offir un échantillon légèrement arbitraire.
 À moins de spécifier autrement, j'utiliserai les genres (Québécois/Québécoises)
 de façon interchangeable au cours du texte.
 
+## License
+[CC-BY-SA-4.0][] © 2016 [Robin Millette][]
+
+[CC-BY-SA-4.0]: cc-by-sa.md
+[Robin Millette]: <http://robin.millette.info/>
 [*1]: #note-1
 [RoLLodeQc]: <http://www.rollodeqc.com/>
