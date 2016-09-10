@@ -1,5 +1,6 @@
 # floppybird
 [floppybird][]
+[Démo floppybird][]
 HTML5 (JavaScript)
 
 Par [Nebez Briefkani][]
@@ -27,5 +28,7 @@ de façon interchangeable au cours du texte.
 [SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
-[Nebez Briefkani]: <https://github.com/nebez>
+[Nebez Briefkani]: <http://nebezb.com/>
+[nebez]: <https://github.com/nebez>
 [floppybird]: <https://github.com/nebez/floppybird>
+[Démo floppybird]: <http://nebezb.com/floppybird/>
