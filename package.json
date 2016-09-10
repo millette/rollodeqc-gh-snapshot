@@ -24,6 +24,8 @@
     "cookie": "^0.2.3",
     "dotenv-safe": "^2.3.1",
     "got": "^6.2.0",
+    "lodash": "^4.15.0",
+    "marked": "^0.3.6",
     "nano": "^6.2.0",
     "pify": "^2.3.0",
     "rate-limit-promise": "^1.0.2",
@@ -34,6 +36,7 @@
     "ava": "^0.16.0",
     "babel-eslint": "^6.1.2",
     "coveralls": "^2.11.12",
+    "lodash-cli": "^4.15.0",
     "nyc": "^8.1.0",
     "standard": "^8.0.0"
   },
