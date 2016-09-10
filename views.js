@@ -31,7 +31,7 @@ const viewBy3 = (args) => dbView('app', args[0], { descending: args[1], limit: t
 
 Promise.all(views1.map(viewBy))
   .then((data) => { data.forEach((rows, i) => { console.log(`\n${views1[i]}\n${rows.slice(0, top).join('\n')}`) }) })
-  .then((() => Promise.all(views2.map(viewBy2))))
+  .then(() => Promise.all(views2.map(viewBy2)))
   .then((data) => { data.forEach((rows, i) => { console.log(`\n${views2[i]}\n${rows.join('\n')}`) }) })
   .then(() => Promise.all(views3.map(viewBy3)))
   .then((data) => {

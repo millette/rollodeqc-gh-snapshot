@@ -4,7 +4,6 @@
 const fs = require('fs')
 
 // npm
-const _ = require('lodash')
 const marked = require('marked')
 const db = require('nano')('http://localhost:5984/repos')
 const pify = require('pify')
