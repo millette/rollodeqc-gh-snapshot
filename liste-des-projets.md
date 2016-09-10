@@ -41,3 +41,36 @@
 * sordonia/hed-dlg
 * spiette/puppet-selinux
 * xEnt22/RustPP
+* nix-rust/nix
+
+## People and orgs
+* https://github.com/lemire
+* https://github.com/adgear
+* https://github.com/plotly
+* https://github.com/savoirfairelinux/
+* https://github.com/guestful
+* https://github.com/mirego
+* https://github.com/DynamoMTL
+* https://github.com/xivo-pbx
+* https://github.com/FieldDB
+* https://github.com/XemmeXServices
+* https://github.com/INTELOGIE
+* https://github.com/datacratic
+* https://github.com/DeuxHuitHuit
+* https://github.com/Sable
+* https://github.com/studiofrenetic
+* https://github.com/DDMAL
+* https://github.com/inocybe
+* https://github.com/hooktstudios
+* https://github.com/vanilla
+* https://github.com/credil
+* https://github.com/cakemail
+* https://github.com/o2web
+* https://github.com/ArcBees
+* https://github.com/eXolnet
+* https://github.com/Excito
+* https://github.com/Ludeon
+* https://github.com/fluidinfo
+* https://github.com/BIC-MNI
+* https://github.com/scbd
+* https://github.com/Acquisio
