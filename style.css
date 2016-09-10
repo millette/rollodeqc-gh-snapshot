@@ -1,0 +1,11 @@
+div.infobox {
+  float: right;
+  width: 16rem;
+  margin-left: 3em;
+  padding-left: 1em;
+  border: thin solid black;
+}
+
+div.infobox dt {
+  font-weight: bold;
+}
