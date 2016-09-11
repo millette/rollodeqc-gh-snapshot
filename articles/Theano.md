@@ -7,7 +7,7 @@ je découvre encore chaque jour une nouvelle codeuse [*1][] ou un nouveau logici
 
 Je profite donc de l'approche de la
 [Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
-une série d'articles à propos de ces découvertes.
+une [série d'articles](.) à propos de ces découvertes.
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
@@ -23,3 +23,6 @@ de façon interchangeable au cours du texte.
 [SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
+[nouiz]: <https://github.com/nouiz>
+[nouiz/Theano]: <https://github.com/nouiz/Theano>
+[Theano]: <https://github.com/Theano/Theano>

@@ -1,6 +1,4 @@
 # Blocks
-[Blocks][]
-[Blocks and fuel papel][]
 
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
@@ -9,7 +7,11 @@ je découvre encore chaque jour une nouvelle codeuse [*1][] ou un nouveau logici
 
 Je profite donc de l'approche de la
 [Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
-une série d'articles à propos de ces découvertes.
+une [série d'articles](.) à propos de ces découvertes.
+
+## Blocks
+[Blocks][]
+[Blocks and fuel papel][]
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
@@ -25,5 +27,7 @@ de façon interchangeable au cours du texte.
 [SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
+[kastnerkyle]: <https://github.com/kastnerkyle>
+[kastnerkyle/Blocks]: <https://github.com/kastnerkyle/blocks>
 [Blocks]: <https://github.com/mila-udem/blocks>
 [Blocks and fuel papel]: <http://arxiv.org/abs/1506.00619>

@@ -1,9 +1,4 @@
 # EstherBot
-[EstherBot][]
-Basé sur [smooch-bot-example] avec les contributions de
-* https://github.com/esthercrawford
-* https://github.com/alavers (mtl)
-* https://github.com/gozman (mtl)
 
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
@@ -12,7 +7,15 @@ je découvre encore chaque jour une nouvelle codeuse [*1][] ou un nouveau logici
 
 Je profite donc de l'approche de la
 [Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
-une série d'articles à propos de ces découvertes.
+une [série d'articles](.) à propos de ces découvertes.
+
+## EstherBot
+[EstherBot][]
+
+Basé sur [smooch-bot-example] avec les contributions de
+* https://github.com/esthercrawford
+* https://github.com/alavers (mtl)
+* https://github.com/gozman (mtl)
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]

@@ -7,7 +7,7 @@ je découvre encore chaque jour une nouvelle codeuse [*1][] ou un nouveau logici
 
 Je profite donc de l'approche de la
 [Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
-une série d'articles à propos de ces découvertes.
+une [série d'articles](.) à propos de ces découvertes.
 
 ## Association professionnelle des entreprises en logiciels libres
 * **Organisation**: OSBL
@@ -72,3 +72,4 @@ de façon interchangeable au cours du texte.
 [APELL-wiki-facil]: <http://wiki.facil.qc.ca/view/Association_professionnelle_des_entreprises_en_logiciels_libres>
 [APELL]: <http://www.apell-quebec.ca/>
 [S2LQ]: <http://s2lq.com/>
+[série d'articles]: /
