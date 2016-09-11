@@ -2,6 +2,7 @@
 
 // core
 const fs = require('fs')
+const path = require('path')
 
 // npm
 const marked = require('marked')
@@ -13,8 +14,8 @@ marked.setOptions({ smartypants: true })
 
 const dbView = pify(db.view)
 const readFile = pify(fs.readFile)
+const writeFile = pify(fs.writeFile)
 const fullNamesView = dbView.bind(null, 'app', 'fullNames')
-
 const getRepo = (login, repo) => fullNamesView({ key: [login, repo], include_docs: true })
 const justDate = (x) => x.split('T')[0]
 
@@ -37,10 +38,8 @@ const makeArticle = (repo) => readFile(`articles/${repo}.md`, 'utf-8')
   .then(findLink.bind(null, repo))
   .then((login) => Promise.all([login[1], getRepo(login[0], repo)]))
   .then(massage)
+  .then(writeFile.bind(null, `html/${repo}.html`))
 
-
-makeArticle('floppybird') // floppybird libstreaming apell
-  .then((z) => {
-    console.log(z)
-  })
+makeArticle(path.basename(process.argv[2], '.md')) // floppybird libstreaming apell
+  .then(console.log)
   .catch(console.error)
