@@ -1,9 +1,6 @@
 # floppybird
-[floppybird][]
-[Démo floppybird][]
-HTML5 (JavaScript)
-
-Par [Nebez Briefkani][]
+* [floppybird][]
+* [Démo floppybird][]
 
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
