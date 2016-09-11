@@ -1,11 +1,27 @@
-div.infobox {
-  float: right;
-  width: 16rem;
-  margin-left: 3em;
-  padding-left: 1em;
-  border: thin solid black;
+@media screen and (min-width: 64em) {
+  body {
+    margin: 2rem;
+  }
 }
 
-div.infobox dt {
+.infobox dt {
   font-weight: bold;
+}
+
+@media screen and (min-width: 40em) {
+  .infobox {
+    margin-left: 2rem;
+  }
+}
+
+.from-md p:first-of-type {
+  /* Foundation .lead */
+  font-size: 125%;
+  line-height: 1.6;
+}
+
+.from-md ul:first-of-type {
+  /* Foundation .no-bullet */
+  list-style: none;
+  margin-left: 0;
 }

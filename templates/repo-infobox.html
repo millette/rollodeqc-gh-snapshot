@@ -2,36 +2,35 @@
 <html>
 <head>
 <meta charset='utf-8'>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css">
 <title><%- data.name %> par <%- data.owner.login %></title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="infobox">
-<h3><%- data.name %></h3>
-<p><%- data.description %></p>
-<dl>
-<dt>par</dt>
-<dd><%- data.owner.login %></dd>
-<% if (data.homepage) { %>
-<dt>web</dt>
-<dd><%- data.homepage %></dd>
-<% } %>
-<dt>création</dt>
-<dd><%- data.created_at %></dd>
-<dt>dernières contributions</dt>
-<dd><%- data.pushed_at %></dd>
-<dt>tickets</dt>
-<dd><%- data.open_issues %></dd>
-<dt>stargazers</dt>
-<dd><%- data.watchers %></dd>
-<dt>forks</dt>
-<dd><%- data.forks %></dd>
-<dt>licence</dt>
-<dd><%- data.license.name %></dd>
-<dt>langage</dt>
-<dd><%- data.language %></dd>
-</dl>
+<div class="row column">
+  <div class="large-4 medium-5 small-12 float-right">
+    <div class="callout primary infobox">
+      <h3><%- data.name %> <small>par <%- data.owner.login %></small></h3>
+      <p><%- data.description %></p>
+      <ul class="no-bullet">
+        <% if (data.homepage) { %>
+        <li><%- data.homepage %></li>
+        <% } %>
+        <li>créer le <%- data.created_at %></li>
+        <li>mis à jour le <%- data.pushed_at %></li>
+        <li><span class="stat"><%- data.open_issues %></span> tickets ouverts</li>
+        <li><span class="stat"><%- data.watchers %></span> <i>stargazers</i></li>
+        <li><span class="stat"><%- data.forks %></span> <i>forks</i></li>
+        <li class="label"><%- data.license.name %></li>
+        <li class="label secondary"><%- data.language %></li>
+      </ul>
+    </div>
+  </div>
+  <div class="from-md"><%= data.md %></div>
 </div>
-<div><%= data.md %></div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js" integrity="sha384-2xzWP4vtFzybsQnYIv6DYL5gFiaA8f/amFJbsV0y4YxQHFOsYtOtkxSeDA1F2MjL" crossorigin="anonymous"></script>
 </body>
 </html>
