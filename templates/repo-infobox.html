@@ -20,9 +20,15 @@
         <% } %>
         <li>Créé le <%- data.created_at %></li>
         <li>Mis à jour le <%- data.pushed_at %></li>
+        <% if (data.open_issues) { %>
         <li><span class="stat"><%- data.open_issues %></span> tickets ouverts</li>
+        <% } %>
+        <% if (data.watchers) { %>
         <li><span class="stat"><%- data.watchers %></span> <i>stargazers</i></li>
+        <% } %>
+        <% if (data.forks) { %>
         <li><span class="stat"><%- data.forks %></span> <i>forks</i></li>
+        <% } %>
         <% if (data.license && data.license.name) { %>
         <li class="label"><%- data.license.name %></li>
         <% } %>
