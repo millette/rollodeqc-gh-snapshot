@@ -24,6 +24,7 @@ de façon interchangeable au cours du texte.
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
 [OpenCode]: <http://www.opencode.ca/>
+[opencodeqc]: <https://github.com/opencodeqc>
+[opencode.ca]: <https://github.com/opencodeqc/opencode.ca>
 [sebhtml]: <https://github.com/sebhtml>
 [sebhtml/opencode.ca]: <https://github.com/sebhtml/opencode.ca>
-[opencode.ca]: <https://github.com/opencodeqc/opencode.ca>

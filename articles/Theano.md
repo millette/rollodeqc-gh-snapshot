@@ -23,6 +23,6 @@ de façon interchangeable au cours du texte.
 [SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
+[Theano]: <https://github.com/Theano/Theano>
 [nouiz]: <https://github.com/nouiz>
 [nouiz/Theano]: <https://github.com/nouiz/Theano>
-[Theano]: <https://github.com/Theano/Theano>

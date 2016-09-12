@@ -27,7 +27,8 @@ de façon interchangeable au cours du texte.
 [SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
+[mila-udem]: <https://github.com/mila-udem>
+[Blocks]: <https://github.com/mila-udem/blocks>
 [kastnerkyle]: <https://github.com/kastnerkyle>
 [kastnerkyle/Blocks]: <https://github.com/kastnerkyle/blocks>
-[Blocks]: <https://github.com/mila-udem/blocks>
 [Blocks and fuel papel]: <http://arxiv.org/abs/1506.00619>
