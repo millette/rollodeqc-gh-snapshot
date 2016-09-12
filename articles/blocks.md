@@ -10,8 +10,8 @@ Je profite donc de l'approche de la
 une [série d'articles](.) à propos de ces découvertes.
 
 ## Blocks
-[Blocks][]
-[Blocks and fuel papel][]
+* [Blocks][]
+* [Blocks and fuel paper][]
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
@@ -31,4 +31,4 @@ de façon interchangeable au cours du texte.
 [Blocks]: <https://github.com/mila-udem/blocks>
 [kastnerkyle]: <https://github.com/kastnerkyle>
 [kastnerkyle/Blocks]: <https://github.com/kastnerkyle/blocks>
-[Blocks and fuel papel]: <http://arxiv.org/abs/1506.00619>
+[Blocks and fuel paper]: <http://arxiv.org/abs/1506.00619>
