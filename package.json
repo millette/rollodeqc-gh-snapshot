@@ -29,8 +29,9 @@
     "nano": "^6.2.0",
     "pify": "^2.3.0",
     "rate-limit-promise": "^1.0.2",
+    "rollodeqc-gh-repo": "0.0.2",
     "rollodeqc-gh-repos": "^0.1.1",
-    "rollodeqc-gh-utils": "^0.3.3"
+    "rollodeqc-gh-utils": "^0.3.4"
   },
   "devDependencies": {
     "ava": "^0.16.0",

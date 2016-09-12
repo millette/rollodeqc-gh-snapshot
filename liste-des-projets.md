@@ -75,3 +75,4 @@
 * https://github.com/scbd
 * https://github.com/Acquisio
 * https://github.com/missive
+* https://github.com/ipfspics/ipfspics-server et https://github.com/cloutier et https://ipfs.pics/
