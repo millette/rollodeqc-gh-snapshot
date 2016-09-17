@@ -24,6 +24,30 @@ quelques formats:
 Notez qu'il ne s'agit pas de dresser un palmarès des logiciels
 ni des codeurs, mais d'offir un échantillon légèrement arbitraire.
 
+## GitHub au Québec
+Sur 10000 québécois inscrits, 6000 ont contribué au cours des
+365 derniers jours. Semaine après semaine, autour de 440 Québécois
+contribuent sur GitHub du lundi à jeudi, 390 vendredi et
+200 les week-ends.
+
+On compte aussi 1000 organisations inscrites, certaines avec plus de
+50 contributeurs publics et/ou plus de 100 projets.
+
+## Le RoLLodeQc
+Le RoLLodeQc, c'est justemment cette loupe sur les contributions
+québécoises aux logiciels libres.
+
+* Le plus récent projet identifie les 200-500 contributeurs au quotidien.
+Je l'appelle affectueusement le [Committed Streaker][].
+* C'est la suite détaillé des [Actions hebdomadaires][].
+* [Quelles licences sont plus populaires auprès de quels langages?][licences-par-langage]
+* Enfin, des [statistiques par langage et par ville][stats] (ça prend 30 secondes à charger)
+* Sans oublier le [bottin des codeuses][bottin].
+
+J'ai fais le point sur [l'état du RoLLodeQc][le-point], ainsi qu'un article
+sur les [trois premiers mois][] et un autre sur la [phase 2] du projet
+si vous voulez en savoir plus.
+
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
 
@@ -39,3 +63,11 @@ de façon interchangeable au cours du texte.
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
 [RoLLodeQc]: <http://www.rollodeqc.com/>
+[Committed Streaker]: <https://streaker.rollodeqc.com/>
+[Actions hebdomadaires]: <http://lab.rollodeqc.com/actions-hebdo/>
+[licences-par-langage]: <http://lab.rollodeqc.com/licences-par-langage.html>
+[stats]: <http://lab.rollodeqc.com/>
+[bottin]: <http://dev.rollodeqc.com/>
+[le-point]: <http://lepoint.rollodeqc.com/>
+[trois premiers mois]: <http://robin.millette.info/rollodeqc-3-premiers-mois>
+[phase 2]: <http://robin.millette.info/rollodeqc-phase-2>
