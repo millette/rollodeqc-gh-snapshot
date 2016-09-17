@@ -8,7 +8,7 @@ je découvre encore chaque jour une nouvelle codeuse [*1][] ou un nouveau logici
 
 Je profite donc de l'approche de la
 [Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
-une [série d'articles](.) à propos de ces découvertes. Je compte utiliser
+une série d'articles à propos de ces découvertes. Je compte utiliser
 quelques formats:
 
 * Portrait de développeur
@@ -47,6 +47,16 @@ Je l'appelle affectueusement le [Committed Streaker][].
 J'ai fais le point sur [l'état du RoLLodeQc][le-point], ainsi qu'un article
 sur les [trois premiers mois][] et un autre sur la [phase 2] du projet
 si vous voulez en savoir plus.
+
+## Les articles
+Je compte publier au moins un article par jour pour les neufs prochains
+jours de la [Semaine québécoise de l'informatique libre][SQIL]. On appelle
+ça la «Semaine» mais comme nous sommes très généreux dans le libre,
+cette semaine compte deux week-ends, ce qui fait neuf jours en tout.
+
+La suite en soirée :-)
+
+Bonne SQIL 2016!
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
