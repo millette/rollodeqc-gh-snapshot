@@ -1,4 +1,3 @@
-# Instantané des projets libres du Québec
 > Un service [RoLLodeQc][]
 
 ## Préambule

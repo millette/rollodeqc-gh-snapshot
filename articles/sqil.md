@@ -1,3 +1,5 @@
+> Un service [RoLLodeQc][]
+
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
 Déjà 15 ans à patauger dans les communautés du libre du Québec et
@@ -38,6 +40,7 @@ de villes du Québec au cours de ses 8 éditions, incluant celle de 2016.
 de façon interchangeable au cours du texte.
 
 [*1]: #note-1
+[RoLLodeQc]: <http://www.rollodeqc.com/>
 [SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
 [Robin Millette]: <http://robin.millette.info/>
