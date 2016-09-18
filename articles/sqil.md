@@ -1,5 +1,3 @@
-# Semaine québécoise de l'informatique libre
-
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
 Déjà 15 ans à patauger dans les communautés du libre du Québec et
@@ -26,7 +24,8 @@ Après une 5e édition de suite en 2008, la SQIL a pris une pause de
 quelques années pour faire un retour en 2014 avec sa 6e édition,
 tradition qui s'est poursuivi en 2015 et cette année.
 
-
+En tout, la SQIL a donné lieu à près de 200 activités dans une dizaine
+de villes du Québec au cours de ses 8 éditions, incluant celle de 2016.
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
