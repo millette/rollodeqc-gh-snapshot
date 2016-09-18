@@ -4,6 +4,7 @@
 
 * [Introduction][snapshot-rollodeqc-1] (le document actuel)
 * [La SQIL][snapshot-rollodeqc-2]
+* [OpenCode Québec][snapshot-rollodeqc-3]
 
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
@@ -88,3 +89,4 @@ de façon interchangeable au cours du texte.
 [phase 2]: /rollodeqc-phase-2
 [snapshot-rollodeqc-1]: /snapshot-rollodeqc-1
 [snapshot-rollodeqc-2]: /snapshot-rollodeqc-2
+[snapshot-rollodeqc-3]: /snapshot-rollodeqc-3
