@@ -39,7 +39,7 @@ Le projet du [site web][opencode.ca], c'est
 ### Contributeurs
 Parmi les contributeurs les plus actifs, on peut nommer
 
-* [Rémi Prévost] [github][gh:remiprev]
+* [Rémi Prévost][] [github][gh:remiprev]
 * Jimmy Bourassa [github][gh:jbourassa]
 
 ## License
