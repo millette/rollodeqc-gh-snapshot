@@ -1,5 +1,10 @@
 > Un service [RoLLodeQc][]
 
+## Les articles
+
+* [Introduction][snapshot-rollodeqc-1]
+* [La SQIL][snapshot-rollodeqc-2] (le document actuel)
+
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
 Déjà 15 ans à patauger dans les communautés du libre du Québec et
@@ -77,9 +82,10 @@ de façon interchangeable au cours du texte.
 [RoLLodeQc]: <http://www.rollodeqc.com/>
 [SQIL]: <http://2016.sqil.info/>
 [CC-BY-SA-4.0]: cc-by-sa.md
-[Robin Millette]: <http://robin.millette.info/>
-[snapshot-rollodeqc-1]: <http://robin.millette.info/snapshot-rollodeqc-1>
+[Robin Millette]: /
 [Chronologie de FACIL]: <http://wiki.facil.qc.ca/view/Chronologie_de_FACIL>
 [Chronologie de la SQIL]: <http://wiki.facil.qc.ca/view/Semaine_qu%C3%A9b%C3%A9coise_de_l'informatique_libre>
 [Informatique libre au Québec]: <http://wiki.facil.qc.ca/view/Informatique_libre_au_Qu%C3%A9bec>
 [Activités SQIL 2016]: <http://2016.sqil.info/activites/>
+[snapshot-rollodeqc-1]: /snapshot-rollodeqc-1
+[snapshot-rollodeqc-2]: /snapshot-rollodeqc-2
