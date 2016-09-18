@@ -43,7 +43,7 @@ Je l'appelle affectueusement le [Committed Streaker][].
 * Enfin, des [statistiques par langage et par ville][stats] (ça prend 30 secondes à charger)
 * Sans oublier le [bottin des codeuses][bottin].
 
-J'ai fais le point sur [l'état du RoLLodeQc][le-point], ainsi qu'un article
+J'ai fait le point sur [l'état du RoLLodeQc][le-point], ainsi qu'un article
 sur les [trois premiers mois][] et un autre sur la [phase 2] du projet
 si vous voulez en savoir plus.
 
@@ -53,7 +53,7 @@ jours de la [Semaine québécoise de l'informatique libre][SQIL]. On appelle
 ça la «Semaine» mais comme nous sommes très généreux dans le libre,
 cette semaine compte deux week-ends, ce qui fait neuf jours en tout.
 
-La suite en soirée :-)
+La suite demain!
 
 Bonne SQIL 2016!
 
