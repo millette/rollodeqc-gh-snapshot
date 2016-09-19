@@ -67,7 +67,7 @@ de façon interchangeable au cours du texte.
 
 [*1]: #note-1
 [SQIL]: <http://2016.sqil.info/>
-[CC-BY-SA-4.0]: cc-by-sa.md
+[CC-BY-SA-4.0]: /cc-by-sa
 [Robin Millette]: <http://robin.millette.info/>
 [APELL-wiki-facil]: <http://wiki.facil.qc.ca/view/Association_professionnelle_des_entreprises_en_logiciels_libres>
 [APELL]: <http://www.apell-quebec.ca/>

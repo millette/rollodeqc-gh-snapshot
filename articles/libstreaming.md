@@ -29,7 +29,7 @@ de façon interchangeable au cours du texte.
 
 [*1]: #note-1
 [SQIL]: <http://2016.sqil.info/>
-[CC-BY-SA-4.0]: cc-by-sa.md
+[CC-BY-SA-4.0]: /cc-by-sa
 [Robin Millette]: <http://robin.millette.info/>
 [libstreaming]: <https://github.com/fyhertz/libstreaming>
 [libstreaming-examples]: <https://github.com/fyhertz/libstreaming-examples>

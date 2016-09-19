@@ -29,7 +29,7 @@ de façon interchangeable au cours du texte.
 
 [*1]: #note-1
 [SQIL]: <http://2016.sqil.info/>
-[CC-BY-SA-4.0]: cc-by-sa.md
+[CC-BY-SA-4.0]: /cc-by-sa
 [Robin Millette]: <http://robin.millette.info/>
 [EstherBot]: <https://github.com/esthercrawford/EstherBot>
 [smooch-bot-example]: <https://github.com/alavers/smooch-bot-example>

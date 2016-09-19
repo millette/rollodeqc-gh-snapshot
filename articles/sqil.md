@@ -82,7 +82,7 @@ de façon interchangeable au cours du texte.
 [*1]: #note-1
 [RoLLodeQc]: <http://www.rollodeqc.com/>
 [SQIL]: <http://2016.sqil.info/>
-[CC-BY-SA-4.0]: cc-by-sa.md
+[CC-BY-SA-4.0]: /cc-by-sa
 [Robin Millette]: /
 [Chronologie de FACIL]: <http://wiki.facil.qc.ca/view/Chronologie_de_FACIL>
 [Chronologie de la SQIL]: <http://wiki.facil.qc.ca/view/Semaine_qu%C3%A9b%C3%A9coise_de_l'informatique_libre>
