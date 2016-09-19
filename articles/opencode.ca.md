@@ -1,3 +1,5 @@
+> Un service [RoLLodeQc][]
+
 ## Les articles
 
 * [Introduction][snapshot-rollodeqc-1]
@@ -75,3 +77,4 @@ de façon interchangeable au cours du texte.
 [gh:remiprev]: <https://github.com/remiprev>
 [gh:jbourassa]: <https://github.com/jbourassa>
 [Rémi Prévost]: <http://www.exomel.com/fr>
+[RoLLodeQc]: <http://www.rollodeqc.com/>
