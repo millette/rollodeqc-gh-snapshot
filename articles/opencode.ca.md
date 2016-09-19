@@ -42,6 +42,14 @@ Parmi les contributeurs les plus actifs, on peut nommer
 * [Rémi Prévost][] [github][gh:remiprev]
 * Jimmy Bourassa [github][gh:jbourassa]
 
+## Québec cité
+Le gazon du voisin serait toujours plus vert, de Montréal, j'ai
+l'impression qu'il y a beaucoup d'actions dans le monde du libre
+à Québec. Plusieurs initiatives issues de la communauté, plusieurs
+petites et moyennes entreprises de service dédiées à l'*open source*.
+
+À quand un OpenCode Montréal? Qui sait :-)
+
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
 
