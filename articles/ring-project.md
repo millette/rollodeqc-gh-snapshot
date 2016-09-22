@@ -1,5 +1,12 @@
 > Un service [RoLLodeQc][]
 
+## Les articles
+
+* [Introduction][snapshot-rollodeqc-1] (le document actuel)
+* [La SQIL][snapshot-rollodeqc-2]
+* [OpenCode Québec][snapshot-rollodeqc-3]
+* [Ring (communications)][snapshot-rollodeqc-4]
+
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
 Déjà 15 ans à patauger dans les communautés du libre du Québec et
@@ -21,6 +28,21 @@ une [série d'articles](.) à propos de ces découvertes.
 > Savoir-faire Linux est une entreprise québécoise de services en logiciels libres.
 
 **Source**: [Ring][ring.cx]
+
+## Description
+Si vous cherchez un moyen de communication à la fois sécuritaire
+et distribuée, basé sur des protocols standards, pensez Ring.
+
+Vous avez peut-être déjà utilisé SFLphone il a y quelques années,
+un logiciel de téléphonie internet (*VoIP*). Ring est la suite logique
+de ce logiciel.
+
+En plus, c'est accessible sur de nombreuses plateformes:
+
+* GNU/Linux avec l'interface GNOME
+* Windows et l'interface QT
+* OS X (Mac)
+* Android, pour les téléphones dit intelligents
 
 ## Sur GitHub
 Ring est maintenu sur GitHub par [Savoir-Faire Linux][sfl] sous la forme
@@ -119,13 +141,11 @@ de façon interchangeable au cours du texte.
 [sfl:ring-project]: <https://github.com/savoirfairelinux/ring-project>
 [wpfr:Table de hachage distribuée]: <https://fr.wikipedia.org/wiki/Table_de_hachage_distribu%C3%A9e>
 [gh:EckoEdc]: <https://github.com/EckoEdc>
-
-
-https://github.com/aberaud
-https://github.com/PipoloyJo
-https://github.com/ssalenik
-https://github.com/sim590
-https://github.com/aviau
-https://github.com/tmatth
-https://github.com/manumilou
-https://github.com/yomgui1
+[gh:aberaud]: <https://github.com/aberaud>
+[gh:PipoloyJo]: <https://github.com/PipoloyJo>
+[gh:ssalenik]: <https://github.com/ssalenik>
+[gh:sim590]: <https://github.com/sim590>
+[gh:aviau]: <https://github.com/aviau>
+[gh:tmatth]: <https://github.com/tmatth>
+[gh:manumilou]: <https://github.com/manumilou>
+[gh:yomgui1]: <https://github.com/yomgui1>
