@@ -1,12 +1,5 @@
 > Un service [RoLLodeQc][]
 
-## Les articles
-
-* [Introduction][snapshot-rollodeqc-1] (le document actuel)
-* [La SQIL][snapshot-rollodeqc-2]
-* [OpenCode Québec][snapshot-rollodeqc-3]
-* [Ring (communications)][snapshot-rollodeqc-4]
-
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
 Déjà 15 ans à patauger dans les communautés du libre du Québec et
@@ -60,8 +53,10 @@ jours de la [Semaine québécoise de l'informatique libre][SQIL]. On appelle
 ça la «Semaine» mais comme nous sommes très généreux dans le libre,
 cette semaine compte deux week-ends, ce qui fait neuf jours en tout.
 
-* [Introduction][snapshot-rollodeqc-1]
+* [Introduction][snapshot-rollodeqc-1] (le document actuel)
 * [La SQIL][snapshot-rollodeqc-2]
+* [OpenCode Québec][snapshot-rollodeqc-3]
+* [Ring (communications)][snapshot-rollodeqc-4]
 
 Bonne SQIL 2016!
 
