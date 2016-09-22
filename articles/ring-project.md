@@ -2,10 +2,10 @@
 
 ## Les articles
 
-* [Introduction][snapshot-rollodeqc-1] (le document actuel)
+* [Introduction][snapshot-rollodeqc-1]
 * [La SQIL][snapshot-rollodeqc-2]
 * [OpenCode Québec][snapshot-rollodeqc-3]
-* [Ring (communications)][snapshot-rollodeqc-4]
+* [Ring (communications)][snapshot-rollodeqc-4] (le document actuel)
 
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
