@@ -75,10 +75,14 @@ En plus d'être le développeur principal pour les projets précédents,
 il contribue de façon importante à ces logiciels aussi.
 
 #### PHPWord
-[PHPWord][]
+[PHPWord][] est une librairie PHP LGPLv3 créée en mai 2012 et Gabriel
+y contribuait de façon significative en 2014. Le projet se poursuit,
+avec 1877 favoris et ses 35 contributrices.
 
 #### dompdf
-[dompdf][]
+[dompdf][] est aussi une librairie PHP LGPLv2.1 dont a création
+remonte à 2005. En 2014, Gabriel y contribuait. Le projet se poursuit
+avec près de 3000 favoris et 51 contributeurs
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
