@@ -17,31 +17,47 @@ Je profite donc de l'approche de la
 une [série d'articles](.) à propos de ces découvertes.
 
 ## Gabriel Bull
-* [gabrielbull][]
-* [react-desktop][]
-* [omnimail][]
+[Gabriel][gabrielbull] est un programmeur de Montréal qui code
+en PHP, JavaScript, CSS, Ruby et Puppet entre autre selon GitHub
+où il est inscrit depuis mars 2011.
 
-* Repositories 30
-* Stars 241
-* Followers 188
-* Following 672
+Il maintient et contribue à plusieurs projets de logiciels libres.
 
-Langages (en ordre de contributions): PHP, JavaScript, CSS, Ruby, Puppet
+### En statistiques
+* Nombre de projets sur GitHub: 30
+* Favoris: 241
+* Suivi par 672 codeuses
 
-Il maintient https://github.com/gabrielbull/gearman avec des contributions
-de 5 autres programmeuses ainsi que https://github.com/gabrielbull/php-websocket-client
-avec 2 autres personnes.
+### Ses projets
+Parmi ses petit projet, on compte [gearman][] avec des contributions
+de 5 autres programmeuses ainsi que [php-websocket-client][] avec
+2 autres personnes.
 
 ### Projets importants
-* https://github.com/gabrielbull/omnimail
-* https://github.com/gabrielbull/php-ups-api
-* https://github.com/gabrielbull/react-desktop
-* https://github.com/gabrielbull/react-aim
+Vous le connaissez peut-être si vous faites du React ou pour ses
+autres projets plus imposants.
 
-Il contribue aussi à:
+#### react-desktop
+[react-desktop][]
 
-* https://github.com/PHPOffice/PHPWord
-* https://github.com/dompdf/dompdf
+#### omnimail
+[omnimail][]
+
+#### php-ups-api
+[php-ups-api][]
+
+#### react-aim
+[react-aim][]
+
+### En tant que contributeur
+En plus d'être le développeur principal pour les projets précédents,
+il contribue de façon importante à ces logiciels aussi.
+
+#### PHPWord
+[PHPWord][]
+
+#### dompdf
+[dompdf][]
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
@@ -66,3 +82,10 @@ de façon interchangeable au cours du texte.
 [snapshot-rollodeqc-3]: /snapshot-rollodeqc-3
 [snapshot-rollodeqc-4]: /snapshot-rollodeqc-4
 [snapshot-rollodeqc-5]: /snapshot-rollodeqc-5
+[gearman]: <https://github.com/gabrielbull/gearman>
+[php-websocket-client]: <https://github.com/gabrielbull/php-websocket-client>
+[php-ups-api]: <https://github.com/gabrielbull/php-ups-api>
+[react-aim]: <https://github.com/gabrielbull/react-aim>
+[PHPWord]: <https://github.com/PHPOffice/PHPWord>
+[dompdf]: <https://github.com/dompdf/dompdf>
+[RoLLodeQc]: <http://www.rollodeqc.com/>
