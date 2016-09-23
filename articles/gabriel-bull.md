@@ -38,7 +38,22 @@ Vous le connaissez peut-être si vous faites du React ou pour ses
 autres projets plus imposants.
 
 #### react-desktop
-[react-desktop][]
+Le JavaScript s'invite partout. On peut même écrire des applications
+*desktop* native en JavaScript pour Windows, OS X et X Window. Avec
+[react-desktop][] on profite de React (un projet de Facebook) avec
+un *look* natif.
+
+En statistiques c'est:
+
+* 5092 favoris
+* 219 *watchers*
+* 9 contributeurs
+* 414 *commits* depuis octobre 2015
+
+Le projet utilise la licence MIT.
+
+Le projet [ouvre la porte à GNU/Linux][react-desktop-47] et cherche
+un coup de pouce, avis aux intéressés.
 
 #### omnimail
 [omnimail][]
@@ -89,3 +104,4 @@ de façon interchangeable au cours du texte.
 [PHPWord]: <https://github.com/PHPOffice/PHPWord>
 [dompdf]: <https://github.com/dompdf/dompdf>
 [RoLLodeQc]: <http://www.rollodeqc.com/>
+[react-desktop-47]: <https://github.com/gabrielbull/react-desktop/issues/47>
