@@ -33,6 +33,9 @@ Parmi ses petit projet, on compte [gearman][] avec des contributions
 de 5 autres programmeuses ainsi que [php-websocket-client][] avec
 2 autres personnes.
 
+Gabriel maintient aussi [php-ups-api][] (MIT) avec 26 autres contributeurs
+et [react-aim][] qui a 257 favoris depuis mai 2016.
+
 ### Projets importants
 Vous le connaissez peut-être si vous faites du React ou pour ses
 autres projets plus imposants.
@@ -56,13 +59,16 @@ Le projet [ouvre la porte à GNU/Linux][react-desktop-47] et cherche
 un coup de pouce, avis aux intéressés.
 
 #### omnimail
-[omnimail][]
+[omnimail][] est un projet en PHP qui permet d'envoyer des courriels
+en passant par une multitude de services. C'est un jeune projet sous
+licence MIT.
 
-#### php-ups-api
-[php-ups-api][]
+En statistiques c'est:
 
-#### react-aim
-[react-aim][]
+* 280 favoris
+* 12 *watchers*
+* 3 contributeurs
+* 41 *commits* depuis juillet 2016
 
 ### En tant que contributeur
 En plus d'être le développeur principal pour les projets précédents,
