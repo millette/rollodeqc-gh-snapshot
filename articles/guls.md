@@ -18,7 +18,7 @@ Je profite donc de l'approche de la
 [Semaine québécoise de l'informatique libre 2016][SQIL] pour rédiger
 une [série d'articles][snapshot-rollodeqc-1] à propos de ces découvertes.
 
-## Les GUL
+## La communauté du libre québécoise
 Qu'en est-il de la communauté du libre québécoise? Jetons d'abord
 un coup d'oeil au wiki de FACIL, en commençant par la page
 [Informatique libre au Québec][]. Cette page se diviser en plusieurs
@@ -35,6 +35,31 @@ de FACIL, un des rares qui accepte les éditions anonymes
 (un *login* de moins). Si vous n'êtes pas trop sûr, il y a aussi la
 [page de discussion][Discussion: informatique libre au Québec] qui
 permet de tremper l'orteil.
+
+## Les GUL
+Sur le wiki de FACIL, vous trouverez aussi la page
+[Communautés d'utilisateurs et de développeurs de logiciels libres au Québec][gulqc]
+qui dresse un tableau des groupes locaux.
+
+On compte 29 groupes, surtout à Montréal. Du lot, on en compte sept
+avec un numéro d'entreprise du Québec (NEQ), c'est à dire dûment enregistrés
+auprès du gouvernement. Les 22 autres groupes sont des rassemblements
+informels dont certains remontent à 2005.
+
+1. (3L)-Logiciels Libres en liberté
+2. Association Drupal de Montréal
+3. Chapitre québécois de OSGeo
+4. Club Linux Atomic
+5. LinuQ
+6. Montréal-Python
+7. PHP Québec
+
+## Conclusion
+J'espère que cette [Semaine québécoise de l'informatique libre 2016][SQIL]
+vous aura plu et que ça vous encouragera à organiser une activité dans
+votre coin la prochaine fois.
+
+À 2017!
 
 ## License
 [CC-BY-SA-4.0][] © 2016 [Robin Millette][]
@@ -59,3 +84,4 @@ de façon interchangeable au cours du texte.
 [snapshot-rollodeqc-6]: /snapshot-rollodeqc-6
 [Informatique libre au Québec]: <http://wiki.facil.qc.ca/view/Informatique_libre_au_Qu%C3%A9bec>
 [Discussion: informatique libre au Québec]: <http://wiki.facil.qc.ca/view/Discussion:Informatique_libre_au_Qu%C3%A9bec>
+[gulqc]: <http://wiki.facil.qc.ca/view/Communaut%C3%A9s_d'utilisateurs_et_de_d%C3%A9veloppeurs_de_logiciels_libres_au_Qu%C3%A9bec>
