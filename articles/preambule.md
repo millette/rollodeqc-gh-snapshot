@@ -58,6 +58,7 @@ cette semaine compte deux week-ends, ce qui fait neuf jours en tout.
 * [OpenCode Québec][snapshot-rollodeqc-3]
 * [Ring (communications)][snapshot-rollodeqc-4]
 * [Gabriel Bull, développeur][snapshot-rollodeqc-5]
+* [Les GUL][snapshot-rollodeqc-6]
 
 Bonne SQIL 2016!
 
@@ -89,3 +90,4 @@ de façon interchangeable au cours du texte.
 [snapshot-rollodeqc-3]: /snapshot-rollodeqc-3
 [snapshot-rollodeqc-4]: /snapshot-rollodeqc-4
 [snapshot-rollodeqc-5]: /snapshot-rollodeqc-5
+[snapshot-rollodeqc-6]: /snapshot-rollodeqc-6

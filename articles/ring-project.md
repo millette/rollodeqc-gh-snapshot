@@ -7,6 +7,7 @@
 * [OpenCode Québec][snapshot-rollodeqc-3]
 * [Ring (communications)][snapshot-rollodeqc-4] (le document actuel)
 * [Gabriel Bull, développeur][snapshot-rollodeqc-5]
+* [Les GUL][snapshot-rollodeqc-6]
 
 ## Préambule
 Il existe tellement de projets libres issus de Québécois et de Québécoises.
@@ -151,3 +152,4 @@ de façon interchangeable au cours du texte.
 [gh:manumilou]: <https://github.com/manumilou>
 [gh:yomgui1]: <https://github.com/yomgui1>
 [snapshot-rollodeqc-5]: /snapshot-rollodeqc-5
+[snapshot-rollodeqc-6]: /snapshot-rollodeqc-6
