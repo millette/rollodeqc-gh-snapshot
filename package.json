@@ -35,11 +35,11 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
-    "babel-eslint": "^6.1.2",
-    "coveralls": "^2.11.12",
-    "lodash-cli": "^4.15.0",
-    "nyc": "^8.1.0",
-    "standard": "^8.0.0"
+    "babel-eslint": "^7.1.0",
+    "coveralls": "^2.11.14",
+    "lodash-cli": "^4.16.6",
+    "nyc": "^8.4.0",
+    "standard": "^8.5.0"
   },
   "standard": {
     "parser": "babel-eslint"
