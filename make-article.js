@@ -29,7 +29,7 @@ const massage = (x2) => {
 }
 
 const findLink = (repo, z) => {
-  const b = z.match(new RegExp(`github\.com\/(.+)\/${repo}>`, 'g'))
+  const b = z.match(new RegExp(`github\\.com\\/(.+)\\/${repo}>`, 'g'))
   if (!b) { throw new Error('no github repo link found') }
   return [b[0].split('/')[1], z]
 }
