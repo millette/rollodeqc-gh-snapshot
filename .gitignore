@@ -5,3 +5,7 @@ usernames-complete.txt
 lodash-templates.js
 npm-debug.log
 html
+.nyc_output/
+articles/boo.md
+articles/ha.js
+articles/p2.html
