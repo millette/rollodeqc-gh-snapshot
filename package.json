@@ -22,15 +22,15 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "cookie": "^0.3.1",
-    "dotenv-safe": "^2.3.1",
-    "got": "^6.3.0",
-    "lodash": "^4.15.0",
+    "dotenv-safe": "^3.0.0",
+    "got": "^6.3.3",
+    "lodash": "^4.16.6",
     "marked": "^0.3.6",
     "nano": "^6.2.0",
     "pify": "^2.3.0",
     "rate-limit-promise": "^1.0.2",
     "rollodeqc-gh-repo": "0.0.2",
-    "rollodeqc-gh-repos": "^0.1.1",
+    "rollodeqc-gh-repos": "^0.1.2",
     "rollodeqc-gh-utils": "^0.3.4"
   },
   "devDependencies": {
