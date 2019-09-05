@@ -4,7 +4,7 @@
 const fs = require('fs')
 
 // npm
-require('dotenv-safe').load()
+require('dotenv-safe').config()
 const fetchRepos = require('rollodeqc-gh-repos')
 const utils = require('rollodeqc-gh-utils')
 const pify = require('pify')

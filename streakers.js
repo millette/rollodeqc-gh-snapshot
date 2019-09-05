@@ -4,7 +4,7 @@
 const fs = require('fs')
 
 // npm
-require('dotenv-safe').load()
+require('dotenv-safe').config()
 const got = require('got')
 const cookie = require('cookie')
 

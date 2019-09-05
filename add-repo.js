@@ -1,7 +1,7 @@
 'use strict'
 
 // npm
-require('dotenv-safe').load()
+require('dotenv-safe').config()
 const fetchRepo = require('rollodeqc-gh-repo')
 const utils = require('rollodeqc-gh-utils')
 const pify = require('pify')
