@@ -4,12 +4,10 @@
   "description": "RoLLodeQc snapshot.",
   "repository": "millette/rollodeqc-gh-snapshot",
   "scripts": {
-    "lint": "standard",
-    "test": "standard && nyc ava",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "lint": "standard"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "keywords": [
     "rollodeqc"
@@ -34,14 +32,7 @@
     "rollodeqc-gh-utils": "^0.3.4"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "babel-eslint": "^7.1.0",
-    "coveralls": "^2.11.14",
     "lodash-cli": "^4.17.5",
-    "nyc": "^8.4.0",
-    "standard": "^8.5.0"
-  },
-  "standard": {
-    "parser": "babel-eslint"
+    "standard": "^14.1.0"
   }
 }
