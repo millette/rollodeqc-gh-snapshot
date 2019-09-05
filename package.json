@@ -27,9 +27,9 @@
     "nano": "^8.1.0",
     "pify": "^4.0.1",
     "rate-limit-promise": "^1.0.2",
-    "rollodeqc-gh-repo": "0.0.2",
-    "rollodeqc-gh-repos": "^0.1.2",
-    "rollodeqc-gh-utils": "^0.3.4"
+    "rollodeqc-gh-repo": "^1.0.0",
+    "rollodeqc-gh-repos": "^1.0.0",
+    "rollodeqc-gh-utils": "^1.0.0"
   },
   "devDependencies": {
     "lodash-cli": "^4.17.5",
