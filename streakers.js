@@ -10,7 +10,7 @@ const cookie = require('cookie')
 
 const headers = { headers: { cookie: cookie.serialize('sid', process.env.SID) } }
 
-let doit = false
+const doit = false
 
 const getDay = (day) => {
   // check if file exists (skip if so)
