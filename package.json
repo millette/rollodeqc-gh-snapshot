@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "lodash-cli": "^4.17.5",
-    "standard": "^14.1.0"
+    "standard": "^14.3.1"
   }
 }
